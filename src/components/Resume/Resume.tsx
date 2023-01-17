@@ -14,7 +14,9 @@ const Resume = () => {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
-  const [file, setFile] = useState("./resume");
+  const [file, setFile] = useState(
+    "https://raw.githubusercontent.com/CaesarBourne/CaesarPorfolio/main/src/Assets/resume.pdf"
+  );
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -38,7 +40,7 @@ const Resume = () => {
           <Document
             className={"d-flex justify-content-center"}
             onLoadError={console.error}
-            file={file}
+            file={}
             onLoadSuccess={onDocumentLoadSuccess}
           >
             <Page pageNumber={pageNumber} scale={width > 786 ? 1.7 : 0.6} />
