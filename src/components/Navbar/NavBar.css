@@ -1,0 +1,22 @@
+.fixed-nav {
+  background-color: #1b1a2ea9 !important;
+  position: fixed !important;
+  transition: all 0.3s ease-out 0s;
+  padding: 0.3rem 2rem !important;
+  font-size: 1.2rem;
+  box-shadow: 0px 12px 13px 0px rgba(9, 5, 29, 0.171) !important;
+}
+.logo {
+  height: 1.5em;
+  width: 2.5em;
+}
+.navbar-nav .nav-link {
+  color: #ffffff;
+  padding: 0.8rem 1rem;
+}
+.icon {
+  margin-bottom: 2px;
+}
+.navbar-nav .nav-item a:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+.footer {
+  background-color: rgb(10, 4, 22);
+  bottom: 0 !important;
+  padding: 10px 0 8px !important;
+}
+.center-text {
+  text-align: center;
+}
+.foot-icon {
+  margin: 0.5em 0 0.5em !important;
+  padding: 0 !important;
+}
+.media-social {
+  display: inline-block !important;
+  padding: 0 1em;
+}
+.whitecol {
+  color: #ffffff;
+}
+.footer-text {
+  font-size: 1em;
+  color: #ffffff;
+  margin: 0.5em 0;
+}

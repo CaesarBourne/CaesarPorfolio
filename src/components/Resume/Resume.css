@@ -1,0 +1,10 @@
+.download {
+  max-width: 250px;
+}
+.resume-container {
+  position: relative;
+  padding: 100px 0 25px;
+  color: #ffffff;
+  height: 90vh;
+  flex: 1;
+}
