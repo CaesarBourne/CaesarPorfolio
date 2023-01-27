@@ -24,7 +24,8 @@
   text-align: left;
 }
 .home-img {
-  max-height: 450px;
+  max-height: 28rem;
+  /* margin: 10rem; */
 }
 
 .dashboard-profile {

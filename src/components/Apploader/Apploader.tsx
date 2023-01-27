@@ -13,7 +13,7 @@ position: fixed;
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #021818eb;
   background-image: url(${img});
   background-repeat: no-repeat;
   background-position: center;

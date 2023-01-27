@@ -4,10 +4,11 @@ import { getGreeting } from "../../utilities/helperFunctions";
 import TsParticle from "../TsParticle/TsParticle";
 import TypeEffect from "../TypeEffect/TypeEffect";
 import "./Dashboard.css";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/computers.svg";
 import avata from "../../Assets/emma.png";
 import Tilt from "react-parallax-tilt";
 import ParticleApp from "../../container/ParticleApp";
+import Computer from "../SVGS/computer";
 
 const Dashboard = () => {
   return (
@@ -25,7 +26,11 @@ const Dashboard = () => {
               </div>
             </Col>
             <Col md={5}>
-              <img className="home-img" src={homeLogo} alt="" />
+              <span className="home-img">
+                <Computer />
+              </span>
+
+              {/* <img className="home-img" src={homeLogo} alt="" /> */}
             </Col>
           </Row>
         </Container>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import logo from "../../Assets/logo.png";
+import logo from "../../Assets/pre.svg";
 import "./NavBar.css";
 import {
   AiFillStar,
@@ -26,7 +26,7 @@ const NavBar = () => {
     { to: "/", path: "Home", icon: <AiOutlineHome className="icon" /> },
     { to: "/", path: "About", icon: <AiOutlineUser className="icon" /> },
     {
-      to: "/",
+      to: "/projects",
       path: "Projects",
       icon: <AiOutlineFundProjectionScreen className="icon" />,
     },
@@ -43,7 +43,12 @@ const NavBar = () => {
         <Navbar.Brand href="/" className="d-flex">
           <img alt="logoimg" src={logo} className="img-fluid logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav">
+        <Navbar.Toggle
+          onClick={() => {
+            setExpanded(expand ? false : true);
+          }}
+          aria-controls="responsive-navbar-nav"
+        >
           <span></span>
           <span></span>
           <span></span>

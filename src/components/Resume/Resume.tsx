@@ -1,22 +1,24 @@
 import React, { useEffect, useState } from "react";
 import { Button, Container, Row } from "react-bootstrap";
 import ParticleApp from "../../container/ParticleApp";
-// import resume from '../../Assets/EmmaAdelekeCVSN.pdf'
-// import resumeemma from "./resume.pdf";
+import resume from "../../Assets/resume.pdf";
+
 import "./Resume.css";
 import { AiOutlineDownload } from "react-icons/ai";
-// import { Document, Page, pdfjs } from "react-pdf";
+
 import { Document, Page, pdfjs } from "react-pdf/dist/esm/entry.webpack5";
+
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const Resume = () => {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
-  const [file, setFile] = useState(
-    "https://raw.githubusercontent.com/CaesarBourne/CaesarPorfolio/main/src/Assets/resume.pdf"
-  );
+  //   const [file, setFile] = useState(
+  //     "https://github.com/CaesarBourne/CaesarPorfolio/blob/153082747664ca7adc8f9534930cd0d2bab1d1f4/public/resume.pdf"
+  //   );
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -26,24 +28,46 @@ const Resume = () => {
   const onDocumentLoadSuccess = ({ numPages }: any) => {
     setNumPages(numPages);
   };
+  const options = {
+    cMapUrl: "cmaps/",
+    cMapPacked: true,
+    standardFontDataUrl: "standard_fonts/",
+  };
 
   return (
     <ParticleApp>
       <Container className="resume-container">
         <Row className="d-flex justify-content-center position-relative">
-          <Button variant="primary" target="_blank" className="download">
+          <Button
+            variant="success"
+            href={resume}
+            target="_blank"
+            className="download"
+          >
             <AiOutlineDownload />
             &nbsp;Download Resume
           </Button>
         </Row>
-        <Row className="justify-content-center py-5">
+        <Row className="py-5 Example__container__document">
           <Document
             className={"d-flex justify-content-center"}
             onLoadError={console.error}
-            file={}
+            file={resume}
+            options={options}
             onLoadSuccess={onDocumentLoadSuccess}
           >
-            <Page pageNumber={pageNumber} scale={width > 786 ? 1.7 : 0.6} />
+            {Array.from(new Array(numPages), (el, index) => (
+              <Page
+                scale={width > 786 ? 1.7 : 0.6}
+                key={`page_${index + 1}`}
+                pageNumber={index + 1}
+              />
+            ))}
+            {/* {Array.apply(null, Array(numPages))
+              .map((x, i) => i + 1)
+              .map((page) => (
+                <Page pageNumber={page} />
+              ))} */}
           </Document>
           <p>
             Page {pageNumber} of {numPages}

@@ -1,0 +1,28 @@
+.app-card {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459);
+  opacity: 0.9;
+  transition: all 0.5s, ease 0s;
+  height: 100%;
+  color: #ffffff;
+  background-color: transparent;
+}
+.btn-primary {
+  color: #5a5454;
+  background-color: #90ee90;
+  border-color: #cff2cf;
+}
+.btn-primary:hover {
+  color: #4e5751;
+  background-color: #48e6e6;
+  border-color: #a9ebeb;
+  outline: #a9ebeb;
+  box-shadow: #a9ebeb;
+}
+.title {
+  color: #90ee90;
+}
+.cardimgapp {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}

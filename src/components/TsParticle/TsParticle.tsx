@@ -28,7 +28,9 @@ const TsParticle = () => {
       options={{
         background: {
           color: {
-            value: "#0d47a1",
+            // value: "#3e5708",
+            // value: "#043a2f",
+            value: "#022c2c",
           },
         },
         fpsLimit: 120,
@@ -75,7 +77,7 @@ const TsParticle = () => {
               default: "bounce",
             },
             random: false,
-            speed: 1,
+            speed: 0.3,
             straight: false,
           },
           number: {
