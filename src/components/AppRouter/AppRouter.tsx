@@ -1,5 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Navigate,
+  redirect,
+  Route,
+  Routes,
+  useLocation,
+} from "react-router-dom";
 import Apploader from "../Apploader/Apploader";
 import Dashboard from "../Dashboard/Dashboard";
 import { Footer } from "../Footer/Footer";
@@ -10,6 +17,8 @@ import TopScroll from "../TopScroll/TopScroll";
 
 const AppRouter = () => {
   const [loading, setLoader] = useState(true);
+  // const location = useLocation();
+  // console.log("This is the location data ", location);
 
   useEffect(() => {
     const firstLoad = setTimeout(() => {
@@ -19,6 +28,8 @@ const AppRouter = () => {
     return () => clearTimeout(firstLoad);
   }, []);
 
+  redirect("dashboard");
+
   return (
     <Router>
       <Apploader loading={loading} />
@@ -27,7 +38,12 @@ const AppRouter = () => {
 
         <TopScroll />
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route
+            path="/CaesarPorfolio"
+            element={<Navigate to="/dashboard" />}
+          />
+          <Route path="/" element={<Navigate to="/dashboard" />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Project />} />
         </Routes>

@@ -23,8 +23,16 @@ const NavBar = () => {
   };
   window.addEventListener("scroll", startScrolling);
   const IconsList = [
-    { to: "/", path: "Home", icon: <AiOutlineHome className="icon" /> },
-    { to: "/", path: "About", icon: <AiOutlineUser className="icon" /> },
+    {
+      to: "/dashboard",
+      path: "Home",
+      icon: <AiOutlineHome className="icon" />,
+    },
+    {
+      to: "/dashboard",
+      path: "About",
+      icon: <AiOutlineUser className="icon" />,
+    },
     {
       to: "/projects",
       path: "Projects",
