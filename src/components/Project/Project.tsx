@@ -38,7 +38,7 @@ const Project = () => {
                 index
               ) => {
                 return (
-                  <Col key={index} md={4} className="py-5 px-4 h-auto">
+                  <Col key={index} md={4} className="py-5 px-2 h-auto">
                     <AppCard
                       img={img}
                       title={title}

@@ -92,12 +92,12 @@ export const CardList: Array<cardInput> = [
     img: sp1,
     title: "Student Paddy mobile App",
     description:
-      "MTN Nigerian portal for telecoms services like purchase bundle, purchase Airtime, Link user National Identification number, payment gateway tranactions Loacating mTN Stores nation wide, View airtime and Data balance, and contacting customer care agent etc.",
+      "Student paddy app is an all purpose stuident application fro collaboration and networking , features such as room creation and networking, voie and video calls , messages are available to students of a higher Institutions",
     repoLink: "NA",
     webLink: "https://mymtn.com.ng",
     previewList: [
       {
-        title: "MTN Home page",
+        title: "Student Paddy Dahboard",
         label: "Landing page for MTN users",
         img: sp1,
       },
@@ -129,7 +129,7 @@ export const CardList: Array<cardInput> = [
     img: mymtn,
     title: "MTN Nigeria consumer Bulk SMS Portal",
     description:
-      "MTN Nigerian portal for telecoms services like purchase bundle, purchase Airtime, Link user National Identification number, payment gateway tranactions Loacating mTN Stores nation wide, View airtime and Data balance, and contacting customer care agent etc.",
+      "MTN Nigeria Bulk sms consumer portal is a portal designed to make available bulk messages to everyday sonsumers and users, Users would have the ability to send to all mobile networks in Nigeria nd Africa SMS messages from MTN. to GLO, Airtel and 9mobile",
     repoLink: "NA",
     webLink: "https://mymtn.com.ng",
     previewList: [
@@ -166,18 +166,18 @@ export const CardList: Array<cardInput> = [
     img: gtclogin,
     title: "GTC Tutor",
     description:
-      "MTN Nigerian portal for telecoms services like purchase bundle, purchase Airtime, Link user National Identification number, payment gateway tranactions Loacating mTN Stores nation wide, View airtime and Data balance, and contacting customer care agent etc.",
+      "GTC Tutor is a android and web app for tutoring prospective trade enthusiasts online on foreign exchange, it brings to your finger tips courses to help users",
     repoLink: "https://globaltradetutor.com/",
     webLink:
       "https://m.apkpure.com/gtc-tutor/com.bourne.caesar.impextutors/download",
     previewList: [
       {
-        title: "MTN Home page",
+        title: "Dashboardpage",
         label: "Landing page for MTN users",
         img: gtcdashboard,
       },
       {
-        title: "MTN Dashboard",
+        title: "Signup page",
         label: "MTN mobile number details , airtime and data balance",
         img: gtclogin,
       },
@@ -219,8 +219,8 @@ export const CardList: Array<cardInput> = [
     webLink: "https://github.com/CaesarBourne/TeacherCPDAPI",
     previewList: [
       {
-        title: "MTN Home page",
-        label: "Landing page for MTN users",
+        title: "Dashboard",
+        label: "Dashboard metrics for course management",
         img: tcpd1,
       },
       {
