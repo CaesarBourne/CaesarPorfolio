@@ -55,11 +55,15 @@ const DynamicModal = ({
             </Link> */}
             <motion.div className="carousel-container">
               <Row className="carousel-header">
-                <Col md={6}>
+                <Col className="">
                   <h3>MY MTN Web</h3>
                 </Col>
-                <Col className="close" md={6}>
-                  <Button onClick={closeModal} variant="primary">
+                <Col className="close">
+                  <Button
+                    className="w-100"
+                    onClick={closeModal}
+                    variant="primary"
+                  >
                     <AiFillCloseCircle />
                   </Button>
                 </Col>

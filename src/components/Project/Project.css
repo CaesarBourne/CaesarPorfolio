@@ -3,5 +3,8 @@
 }
 .projects {
   position: relative;
-  padding: 9rem 0 2rem;
+  padding: 9rem 0 0.5rem;
+}
+.appcard {
+  height: auto;
 }

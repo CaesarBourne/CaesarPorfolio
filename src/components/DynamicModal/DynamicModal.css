@@ -51,11 +51,16 @@
 .carousel-header {
   height: 3rem;
   padding: 0.5rem;
+  margin: 1rem;
 }
 .close {
   font-weight: 2rem;
-  background-color: green;
   height: 100%;
+}
+.carousel-header-text {
+  font-weight: 10em;
+  height: 100%;
+  background-color: lightgreen;
 }
 .carousel-img {
   width: 60rem;

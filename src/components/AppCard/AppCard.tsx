@@ -33,21 +33,21 @@ const AppCard = ({
         <Card.Title>
           <strong className="title">{title}</strong>
         </Card.Title>
-        <Card.Text>{description}</Card.Text>
-        <Row className="w-100">
-          <Col lg={4} md={12} sm={12}>
+        <Card.Text className="description">{description}</Card.Text>
+        <Row className="bottom-buttons w-100">
+          <Col xl={4} lg={12} md={12} sm={12} className="project-buttons">
             <Button variant="primary" target="_blank" href={webLink}>
               <CgWebsite />
               &nbsp; Navigate
             </Button>
           </Col>
-          <Col lg={4} md={12} sm={12}>
+          <Col xl={4} lg={12} md={12} sm={12} className="project-buttons">
             <Button variant="primary" onClick={openModal}>
               <CgWebsite /> &nbsp; Preview
             </Button>
           </Col>
 
-          <Col lg={4} md={12} sm={12}>
+          <Col xl={4} lg={12} md={12} sm={12}>
             <Button variant="primary" href={repoLink} target="_blank">
               <BsGithub /> &nbsp; GitHub
             </Button>

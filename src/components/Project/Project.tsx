@@ -19,10 +19,12 @@ const Project = () => {
       ></DynamicModal>
       <ParticleApp>
         <Container className=" justify-content-center projects">
-          <h1 className=" text-white font-weight-bold pt-5 display-6 ">
+          <h1 className=" text-white text-center font-weight-bold pt-5 display-6 w-100">
             Deployed <strong className="primary">Projects</strong>
           </h1>
-          <p className="text-white"> List of projects worked on</p>
+          <p className="w-100 text-center text-white">
+            List of projects worked on
+          </p>
           <Row className="justify-content-center pb-1">
             {CardList.map(
               (
@@ -38,7 +40,13 @@ const Project = () => {
                 index
               ) => {
                 return (
-                  <Col key={index} md={4} className="py-5 px-2 h-auto">
+                  <Col
+                    key={index}
+                    md={6}
+                    lg={6}
+                    xl={4}
+                    className="py-3 px-2  appcard"
+                  >
                     <AppCard
                       img={img}
                       title={title}
