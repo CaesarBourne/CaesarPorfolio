@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CaesarPorfolio/static/css/main.ac93a2ba.css",
-    "main.js": "/CaesarPorfolio/static/js/main.3c600e9a.js",
+    "main.css": "/CaesarPorfolio/static/css/main.ca481b9e.css",
+    "main.js": "/CaesarPorfolio/static/js/main.f71112cb.js",
     "static/js/787.16ec7de5.chunk.js": "/CaesarPorfolio/static/js/787.16ec7de5.chunk.js",
     "static/media/gtcweb.png": "/CaesarPorfolio/static/media/gtcweb.537147736de4f8a54e5f.png",
     "static/media/mymtn.png": "/CaesarPorfolio/static/media/mymtn.0ddfa0dbfc8286cfd2c9.png",
@@ -37,12 +37,12 @@
     "static/media/home-bg.jpg": "/CaesarPorfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/CaesarPorfolio/static/media/pre.9e11b7c14a95c7bcf37f8b375dac0646.svg",
     "index.html": "/CaesarPorfolio/index.html",
-    "main.ac93a2ba.css.map": "/CaesarPorfolio/static/css/main.ac93a2ba.css.map",
-    "main.3c600e9a.js.map": "/CaesarPorfolio/static/js/main.3c600e9a.js.map",
+    "main.ca481b9e.css.map": "/CaesarPorfolio/static/css/main.ca481b9e.css.map",
+    "main.f71112cb.js.map": "/CaesarPorfolio/static/js/main.f71112cb.js.map",
     "787.16ec7de5.chunk.js.map": "/CaesarPorfolio/static/js/787.16ec7de5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac93a2ba.css",
-    "static/js/main.3c600e9a.js"
+    "static/css/main.ca481b9e.css",
+    "static/js/main.f71112cb.js"
   ]
 }
