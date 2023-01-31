@@ -56,7 +56,7 @@ const DynamicModal = ({
             <motion.div className="carousel-container">
               <Row className="carousel-header">
                 <Col className="">
-                  <h3>MY MTN Web</h3>
+                  <h3>App Preview</h3>
                 </Col>
                 <Col className="close">
                   <Button

@@ -31,6 +31,8 @@ import tcpd3 from "../Assets/tcpd3.png";
 import tcpd4 from "../Assets/tcpd4.png";
 import tcpd5 from "../Assets/tcpd5.png";
 
+import bs1 from "../Assets/bs1.png";
+
 export const getGreeting = () => {
   let greeting = `Hello good day!`;
 
@@ -93,8 +95,9 @@ export const CardList: Array<cardInput> = [
     title: "Student Paddy mobile App",
     description:
       "Student paddy app is an all purpose stuident application fro collaboration and networking , features such as room creation and networking, voie and video calls , messages are available to students of a higher Institutions",
-    repoLink: "NA",
-    webLink: "https://mymtn.com.ng",
+    repoLink: "https://play.google.com/store/apps/details?id=com.paddy_bare",
+    webLink:
+      "https://apps.apple.com/ng/app/student-paddy-digital-campus/id6444663470",
     previewList: [
       {
         title: "Student Paddy Dahboard",
@@ -102,7 +105,7 @@ export const CardList: Array<cardInput> = [
         img: sp1,
       },
       {
-        title: "MTN Dashboard",
+        title: "Student paddy Calls",
         label: "MTN mobile number details , airtime and data balance",
         img: sp2,
       },
@@ -131,7 +134,7 @@ export const CardList: Array<cardInput> = [
     description:
       "MTN Nigeria Bulk sms consumer portal is a portal designed to make available bulk messages to everyday sonsumers and users, Users would have the ability to send to all mobile networks in Nigeria nd Africa SMS messages from MTN. to GLO, Airtel and 9mobile",
     repoLink: "NA",
-    webLink: "https://mymtn.com.ng",
+    webLink: "https://bulksms.mymtn.com.ng/",
     previewList: [
       {
         title: "MTN Home page",
@@ -249,16 +252,16 @@ export const CardList: Array<cardInput> = [
   },
   {
     img: mymtn,
-    title: "MTN Nigeria Telecoms Portal",
+    title: "MTN Nigeria Bulk SMS corporate Portal",
     description:
-      "MTN Nigerian portal for telecoms services like purchase bundle, purchase Airtime, Link user National Identification number, payment gateway tranactions Loacating mTN Stores nation wide, View airtime and Data balance, and contacting customer care agent etc.",
-    repoLink: "NA",
-    webLink: "https://mymtn.com.ng",
+      "MTN Nigeria Bulk SMS corporate portal is one where , enterprise users can purchase bundles and units interfacing USSD and MTN APIs, ehich in turn can be used on consumer and third party applications to send SMS.",
+    repoLink: "https://prebulkmessaging.mymtn.com.ng/",
+    webLink: "https://bulkmessaging.mymtn.com.ng/login",
     previewList: [
       {
         title: "MTN Home page",
         label: "Landing page for MTN users",
-        img: sp1,
+        img: bs1,
       },
       {
         title: "MTN Dashboard",

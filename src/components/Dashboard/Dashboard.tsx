@@ -9,6 +9,7 @@ import avata from "../../Assets/emma.png";
 import Tilt from "react-parallax-tilt";
 import ParticleApp from "../../container/ParticleApp";
 import Computer from "../SVGS/computer";
+import { ContactList, FooterList } from "../../utilities/constantComponents";
 
 const Dashboard = () => {
   return (
@@ -57,8 +58,9 @@ const Dashboard = () => {
                     I have been opportune to work on a telecoms portal, that
                     made the purchase of airtime data and other telecom related
                     services easily accessible to the community and everyday
-                    customer, this was unique has it had the microservice
-                    architecture with over 1million daily users on the platform,
+                    customer, this was unique one as its architecture was
+                    designed and implemented to cater for over 1 million daily
+                    users on the platform.
                   </i>
                 </span>
               </p>
@@ -67,6 +69,23 @@ const Dashboard = () => {
               <Tilt>
                 <img className="personal" src={avata} alt="" />
               </Tilt>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={12} className="contact-me">
+              <h1>
+                Contact <strong className="primary">Emmanuel</strong>
+              </h1>
+              <p>
+                Please kindly contact via
+                <strong className="primary">
+                  {" "}
+                  these highlighted platforms
+                </strong>
+              </p>
+              {ContactList.map((contact) => {
+                return contact.children;
+              })}
             </Col>
           </Row>
         </Container>

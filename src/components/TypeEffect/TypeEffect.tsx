@@ -10,6 +10,8 @@ const TypeEffect = () => {
           "React Engineer",
           "Angular developer",
           "Node JS engineer",
+          "Linux expert",
+          "Next JS engineer",
           "Android Developer",
           "Team Lead",
         ],
