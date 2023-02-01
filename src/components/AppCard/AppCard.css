@@ -4,7 +4,7 @@
   transition: all 0.5s, ease 0s;
   height: 100%;
   color: #ffffff;
-  background-color: transparent;
+  background-color: rgb(2, 44, 44, 0.7);
   /* position: relative; */
 }
 .btn-primary {
@@ -32,18 +32,31 @@
 .bottom-buttons {
   /* position: absolute;
   bottom: 3%; */
-  margin-bottom: 0.6rem;
+  /* margin-bottom: 0.6rem; */
   /* height: 40%; */
+  /* position: absolute; */
+  /* bottom: 2%; */
+  /* transform: translate(0%, 30%); */
 }
 .description {
   /* height: 60%; */
   /* height: 15rem; */
   margin: 0.5rem;
+  /* margin-bottom: 40%; */
   overflow: scroll;
   color: #ffffff;
 }
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .project-buttons {
     margin-bottom: 0.5rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .bottom-buttons {
+    position: relative;
+    bottom: 0;
+  }
+  .description {
+    /* margin-bottom: 5%; */
   }
 }
