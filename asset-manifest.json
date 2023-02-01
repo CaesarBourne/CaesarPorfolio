@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CaesarPorfolio/static/css/main.b83ae520.css",
-    "main.js": "/CaesarPorfolio/static/js/main.e0f55f80.js",
+    "main.css": "/CaesarPorfolio/static/css/main.96415a3e.css",
+    "main.js": "/CaesarPorfolio/static/js/main.718a2d53.js",
     "static/js/787.16ec7de5.chunk.js": "/CaesarPorfolio/static/js/787.16ec7de5.chunk.js",
     "static/media/gtcweb.png": "/CaesarPorfolio/static/media/gtcweb.537147736de4f8a54e5f.png",
     "static/media/bs1.png": "/CaesarPorfolio/static/media/bs1.5712226f2e68fb8379b7.png",
@@ -38,12 +38,12 @@
     "static/media/home-bg.jpg": "/CaesarPorfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/CaesarPorfolio/static/media/pre.9e11b7c14a95c7bcf37f8b375dac0646.svg",
     "index.html": "/CaesarPorfolio/index.html",
-    "main.b83ae520.css.map": "/CaesarPorfolio/static/css/main.b83ae520.css.map",
-    "main.e0f55f80.js.map": "/CaesarPorfolio/static/js/main.e0f55f80.js.map",
+    "main.96415a3e.css.map": "/CaesarPorfolio/static/css/main.96415a3e.css.map",
+    "main.718a2d53.js.map": "/CaesarPorfolio/static/js/main.718a2d53.js.map",
     "787.16ec7de5.chunk.js.map": "/CaesarPorfolio/static/js/787.16ec7de5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b83ae520.css",
-    "static/js/main.e0f55f80.js"
+    "static/css/main.96415a3e.css",
+    "static/js/main.718a2d53.js"
   ]
 }
