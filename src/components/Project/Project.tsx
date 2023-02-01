@@ -20,10 +20,11 @@ const Project = () => {
       <ParticleApp>
         <Container className=" justify-content-center projects">
           <h1 className=" text-white text-center font-weight-bold pt-5 display-6 w-100">
+            <strong className="primary">Some </strong>
             Deployed <strong className="primary">Projects</strong>
           </h1>
           <p className="w-100 text-center text-white">
-            List of projects worked on
+            please do find some live applications
           </p>
           <Row className="justify-content-center pb-1">
             {CardList.map(
