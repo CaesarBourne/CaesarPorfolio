@@ -16,9 +16,6 @@ const Resume = () => {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
-  //   const [file, setFile] = useState(
-  //     "https://github.com/CaesarBourne/CaesarPorfolio/blob/153082747664ca7adc8f9534930cd0d2bab1d1f4/public/resume.pdf"
-  //   );
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
